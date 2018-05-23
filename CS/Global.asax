@@ -1,0 +1,1 @@
+<%@ Application Codebehind="Global.asax.cs" Inherits="GoogleCalendarAPI.Global_asax" Language="C#" %>
