@@ -28,7 +28,10 @@ Namespace GoogleCalendarAPI
                     Return
                 End If
 
-                service = New CalendarService(New BaseClientService.Initializer() With {.HttpClientInitializer = TryCast(Session("credential"), UserCredential), .ApplicationName = "GoogleApiTest"})
+                service = New CalendarService(New BaseClientService.Initializer() With { _
+                    .HttpClientInitializer = TryCast(Session("credential"), UserCredential), _
+                    .ApplicationName = "GoogleApiTest" _
+                })
 
                 If service Is Nothing Then
                     Return

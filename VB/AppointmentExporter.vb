@@ -30,7 +30,7 @@ Namespace GoogleCalendarAPI
         End Sub
 
         Private Function CreateEvent(ByVal apt As Appointment) As [Event]
-            Dim instance As New [Event]()
+            Dim instance As [Event] = New [Event]()
             AssignProperties(apt, instance)
             Return instance
         End Function
