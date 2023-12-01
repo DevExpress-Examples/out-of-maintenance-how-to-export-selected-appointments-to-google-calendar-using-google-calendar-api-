@@ -1,1 +1,0 @@
-﻿<%@ Application Codebehind="Global.asax.vb" Inherits="GoogleCalendarAPI.Global_asax" Language="vb" %>
